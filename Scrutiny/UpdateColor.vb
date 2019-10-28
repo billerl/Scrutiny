@@ -55,6 +55,7 @@
             minBlue = 0
         End If
         UpdateColorDisplay()
+        Evaluate.Evaluate()
     End Sub
     Public Sub SetColor()
         'Red

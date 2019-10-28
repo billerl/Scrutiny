@@ -43,7 +43,7 @@
     End Sub
     Private Sub ToleranceSlider_Scroll(sender As Object, e As ScrollEventArgs) Handles ToleranceSlider.Scroll
 
-        Dim globalTol As Integer = ToleranceSlider.Value / 255 * 100
+        Dim globalTol As Integer = ToleranceSlider.Value / 255 * 300
 
         tolRed = globalTol
         tolGreen = globalTol
@@ -61,5 +61,9 @@
 
     Private Sub ScrutinyColorForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        capturePix = True
     End Sub
 End Class

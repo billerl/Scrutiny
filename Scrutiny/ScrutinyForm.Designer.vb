@@ -35,8 +35,6 @@ Partial Class ScrutinyForm
         Me.CreateNewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ModifyExistingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SetColorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.CaptureColorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SetRangeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContactTechSupportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -67,31 +65,31 @@ Partial Class ScrutinyForm
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
         'SaveAsToolStripMenuItem
         '
         Me.SaveAsToolStripMenuItem.Name = "SaveAsToolStripMenuItem"
-        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.SaveAsToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.SaveAsToolStripMenuItem.Text = "Save As"
         '
         'LoadToolStripMenuItem
         '
         Me.LoadToolStripMenuItem.Name = "LoadToolStripMenuItem"
-        Me.LoadToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.LoadToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.LoadToolStripMenuItem.Text = "Load"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(135, 26)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(216, 26)
         Me.ToolStripMenuItem2.Text = " "
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(135, 26)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'EditToolStripMenuItem
@@ -105,7 +103,7 @@ Partial Class ScrutinyForm
         '
         Me.DefineROIToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CreateNewToolStripMenuItem, Me.ModifyExistingToolStripMenuItem})
         Me.DefineROIToolStripMenuItem.Name = "DefineROIToolStripMenuItem"
-        Me.DefineROIToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
+        Me.DefineROIToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.DefineROIToolStripMenuItem.Text = "Define ROI"
         '
         'CreateNewToolStripMenuItem
@@ -122,22 +120,9 @@ Partial Class ScrutinyForm
         '
         'SetColorToolStripMenuItem
         '
-        Me.SetColorToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CaptureColorToolStripMenuItem, Me.SetRangeToolStripMenuItem})
         Me.SetColorToolStripMenuItem.Name = "SetColorToolStripMenuItem"
-        Me.SetColorToolStripMenuItem.Size = New System.Drawing.Size(156, 26)
+        Me.SetColorToolStripMenuItem.Size = New System.Drawing.Size(216, 26)
         Me.SetColorToolStripMenuItem.Text = "Set Color"
-        '
-        'CaptureColorToolStripMenuItem
-        '
-        Me.CaptureColorToolStripMenuItem.Name = "CaptureColorToolStripMenuItem"
-        Me.CaptureColorToolStripMenuItem.Size = New System.Drawing.Size(176, 26)
-        Me.CaptureColorToolStripMenuItem.Text = "Capture Color"
-        '
-        'SetRangeToolStripMenuItem
-        '
-        Me.SetRangeToolStripMenuItem.Name = "SetRangeToolStripMenuItem"
-        Me.SetRangeToolStripMenuItem.Size = New System.Drawing.Size(176, 26)
-        Me.SetRangeToolStripMenuItem.Text = "Set Range"
         '
         'HelpToolStripMenuItem
         '
@@ -222,8 +207,6 @@ Partial Class ScrutinyForm
     Friend WithEvents CreateNewToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ModifyExistingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SetColorToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents CaptureColorToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SetRangeToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ContactTechSupportToolStripMenuItem As ToolStripMenuItem
