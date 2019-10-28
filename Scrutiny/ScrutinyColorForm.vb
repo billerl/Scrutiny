@@ -52,7 +52,7 @@
         UpdateColor.UpdateColor()
 
         'Evaluate.Evaluate()
-        ScrutinyForm.PictureBox1.ImageLocation = imageNewLocation
+        'ScrutinyForm.PictureBox1.ImageLocation = imageNewLocation
         ToleranceLabel.Text = ToleranceSlider.Value.ToString
 
 

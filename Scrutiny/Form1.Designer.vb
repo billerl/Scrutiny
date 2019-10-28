@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class ScrutinyFrm
+Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -23,6 +23,7 @@ Partial Class ScrutinyFrm
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
@@ -52,22 +53,23 @@ Partial Class ScrutinyFrm
         '
         Me.ToolStripStatusLabel1.AutoSize = False
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(72, 20)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(72, 21)
         Me.ToolStripStatusLabel1.Text = "Loading..."
         '
         'ToolStripProgressBar1
         '
         Me.ToolStripProgressBar1.AutoSize = False
         Me.ToolStripProgressBar1.Name = "ToolStripProgressBar1"
-        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(600, 18)
+        Me.ToolStripProgressBar1.Size = New System.Drawing.Size(600, 20)
         '
-        'ScrutinyFrm
+        'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1224, 722)
         Me.Controls.Add(Me.StatusStrip1)
-        Me.Name = "ScrutinyFrm"
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Name = "Form1"
         Me.Text = "Scutiny"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.StatusStrip1.ResumeLayout(False)

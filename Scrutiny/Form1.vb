@@ -1,4 +1,4 @@
-﻿Public Class ScrutinyFrm
+﻿Public Class Form1
     Public countDown As Integer
     Private Sub ToolStripMenuItem2_Click(sender As Object, e As EventArgs)
 
